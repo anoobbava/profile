@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+ 
+ body
+ {
+	background-color: #d0e4fe; 	
+}
+h1
+{
+	color: black;
+	text-align: center;
+}
+
+.hometable {	
+	 color: red;
+
+}
+.qual1{
+	color: blue;
+}
+td {text-align: center;}

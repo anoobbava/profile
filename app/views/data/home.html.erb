@@ -1,29 +1,34 @@
 <center><h1> welcome to home page</h1>
-<table  border=1 style="width:50%">
-  <tr>
-    <td><h3>first name</h3></td>
-    <td>anoob</td>
- </tr>
-<tr>
-    <td>middle name</td>
-   <td>k</td>
- </tr>
-
-
-
-
-
-
- 
-    <td>last name</td>
-    <td>age</td>
-    <td>address</td>
-    <td>mobile number</td>
-  </tr>
-  
-    
-    <td>bava</td>
-    <td>25</td>
-    <td>nedumbassery</td>
-    <td>9388978817</td>
-</table> 
+<div class="hometable"> 
+	<table  border=1 style="width:50%" >
+		<tr>
+  		<td>first name</td>
+    	<td>anoob</td>
+ 		</tr>
+		<tr>
+    	<td>middle name</td>
+   		<td>k</td>
+ 		</tr>
+		<tr>
+    	<td>last name</td>
+   		<td>bava</td>
+ 		</tr>
+ 		<tr>
+  		<td>age</td>
+  		<td>25</td>
+ 		</tr>
+ 		<tr>
+  		<td>address</td>
+   		<td>nedumbassery</td>
+ 		</tr>
+		<tr>
+    	<td>mobile number</td>
+   		<td>9388978817</td>
+ 		</tr>
+ 		<tr>
+ 			<td>profile</td>
+ 			<td> <%= image_tag("anoob.JPG",size:"400x300",alt:"Edit Entry")%> </td>
+ 		</tr>
+	</table> 
+</div>
+<p><%=link_to "click to qualification page", data_qual_path%></p>
